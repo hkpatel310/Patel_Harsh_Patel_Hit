@@ -12,6 +12,12 @@ header nav {
 header nav a {
     margin: 50px;
 }
+.ipad{
+    padding: 40px;
+}
+.phone{
+    padding: 40px;
+}
 .logo {
     height: 170px;
     width: 170px;
@@ -25,8 +31,9 @@ header nav a {
    
 }
 a{
-    font-size: 25px;
+    font-size: 20px;
 }
+
 #search-svg{
     height: 25px;
 }
@@ -40,8 +47,9 @@ a{
 #team{
     height: 100px;
 }
-.flavours object {
-   margin: 50px;
+.flavours object 
+{
+margin: 50px;
 height: 150px;
 width: 150px;    
 }
