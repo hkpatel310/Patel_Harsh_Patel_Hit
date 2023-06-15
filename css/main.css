@@ -42,10 +42,9 @@ a{
     width: -webkit-fill-available;
 }
 .contact-form {
-    height: 400px; 
-    padding: 20px;   
+    height: 400px;  
 }
-#team{
+.team{
     height: 100px;
 }
 .flavours object 
