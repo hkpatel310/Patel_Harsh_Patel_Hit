@@ -12,7 +12,7 @@
 ## Getting Started
 ### To get started with the Quatro website project, follow these steps:
 
-Clone the repository to your local machine using the command: git clone https://github.com/hkpatel310/Patel_Harsh_Patel_Hit_FIP-midterm.git
+Clone the repository to your local machine using the command: git clone https://github.com/hkpatel310/Patel_Harsh_Patel_Hit_Fip.git
 Navigate to the project directory: cd quatro-drink-brand
 Install the necessary dependencies: npm install or yarn install
 Customize the website according to your specific requirements, such as branding, content, and imagery.
