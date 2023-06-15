@@ -42,7 +42,8 @@ a{
     width: -webkit-fill-available;
 }
 .contact-form {
-    height: 400px;    
+    height: 400px; 
+    padding: 20px;   
 }
 #team{
     height: 100px;
