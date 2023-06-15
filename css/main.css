@@ -13,8 +13,7 @@ header nav a {
 
 #hero-image
 {
-    height: 450px;
-    width: 700px;
+    width: -webkit-fill-available;
     justify-content: center;
    
 }
@@ -25,9 +24,6 @@ a{
     height: 25px;
 }
 
-.hero img {
-    width: -webkit-fill-available;
-}
 .product-img {
     width: -webkit-fill-available;
 }
