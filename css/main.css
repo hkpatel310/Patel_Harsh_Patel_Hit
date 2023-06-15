@@ -30,3 +30,8 @@ a{
 .contact-form {
     height: 400px;    
 }
+.flavours object {
+   margin: 50px;
+height: 150px;
+width: 150px;    
+}
