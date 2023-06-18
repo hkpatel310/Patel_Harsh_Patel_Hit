@@ -4,6 +4,7 @@ body {
 body h2 {
     font-family: 'Abril Fatface', cursive;
     padding: 10px;
+    color: #df6d47;
 }
 header nav {
     text-align: center;
@@ -22,7 +23,11 @@ header nav a {
     height: 170px;
     width: 170px;
 }
-
+.header a {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    color: #e67f1e;
+}
 
 #hero-image
 {
@@ -44,6 +49,7 @@ a{
 .contact-form {
     height: 400px;  
 }
+
 .team{
     height: 100px;
 }
@@ -77,3 +83,34 @@ footer{
     font-size: 20px;
 }
 
+.explore button {
+	margin: 20px;
+	color: black;
+	background-color: #ffffff;
+	font-size: 15px;
+}
+.explore button:hover {
+	color: #000;
+	background-color: #e67f1e;
+	transition: background-color 0.5s ease-in-out;
+	box-shadow: 2px 3px 13px 5px rgba(0, 0, 0, 0.5);
+	box-shadow: 1px 5px 22px 0.5px rgba(0, 0, 0, 0.3);}
+.product-img button {
+	margin: 20px;
+	color: black;
+	background-color: #ffffff;
+
+}
+.product-img button:hover {
+	color: #000;
+	background-color: #6dc954;
+	transition: background-color 0.5s ease-in-out;
+	box-shadow: 2px 3px 13px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 5px 22px 0.5px rgba(0, 0, 0, 0.3);}
+.submit {
+    margin: 20px;
+}
+.media img {
+    height: 20px;
+    width: 20px;
+}
