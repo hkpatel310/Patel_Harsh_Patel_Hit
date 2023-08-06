@@ -7,6 +7,7 @@
     <title>Patel_Harsh_Patel_Hit_Fip</title>
 <link rel="stylesheet" href="css/grid.css">   
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main-1.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
@@ -15,21 +16,28 @@
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="grid-con header">
-<div class="col-span-3 m-col-span-3 l-col-span-3 "><img class="logo" src="image/Quatro_logo.svg" alt="logo"></div>
-<a href="contact.html" class="mobile col-span-1 phone"><img src="image/hamburger-menu.png" alt="hamburger-menu"></a>
-<a href="contact.html" class="tablet m-col-start-11 ipad"><img src="image/hamburger-menu.png" alt="hamburger-menu"></a>
-
-     <nav class="desktop l-col-span-9 pages-header "> 
-        <a href="index.html">Home</a>
-        <a href="#">Product</a>
-        <a href="#">Blog</a>
-        <a href="contact.html"> ContactUS</a>
-        <a href="#"><img src="image/icons8-search-50.png" id="search-svg" alt="search"></a>
-         </nav>
-    </header>
-    <h1 class="hidden">Patel harsh & Patel hit</h1>
-    <main>
+    <div id="sticky-nav-con">
+        <header class="grid-con" id="main-header">
+        <div class="grid-con"  id="logo">
+            <img  class="col-span-full m-col-start-1 m-col-end-4" src="./image/Patel_harsh_Logo_color.svg" alt="logo">
+        </div>
+        <nav id="main-nav" class="col-span-full m-col-start-4 m-col-end-13">
+            <h2 class="hidden"> main navigation bar</h2>
+            <button id="button"></button>
+            <div id="burger-con">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">Contact US</a></li>
+                </ul>
+            </div>
+        </nav>
+        </header>
+        <h1 class="hidden">Patel harsh & Patel hit</h1>
+    </div>
+    
+     <main>
 <div class="grid-con" >
 <div class="col-span-4 m-col-span-12 l-col-span-12"><img src="./image/hero-image.jpg" id="hero-image" alt="Hero Image"></div>
 </div>
