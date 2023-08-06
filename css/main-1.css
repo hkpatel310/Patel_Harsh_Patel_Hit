@@ -1,0 +1,509 @@
+/* 
+    CSS Guide 
+
+    1.  General Styles
+    2.  Main Nav
+    3. 
+    6.  About & FAQ
+    7.  Contact Form
+    8.  Footer
+    4. our team
+    9.  Custom Queries
+    10. Tablet Queries
+    11. Desktop Queries 
+ */
+
+/* 1. ---General Styles--- */
+body {
+    color: #626262;
+    font-family: 'Sanchez', 'Times New Roman', serif;
+}
+
+a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+.cr-red {
+    color: #9a2018;
+}
+
+.line-seperator {
+    margin-top:20px;
+    border-top:solid 3px #5e70e5;
+    padding-top:20px;
+}
+
+
+#explore-more {
+    background-color:#9a2018;
+    color:#fff;
+    font-size:16px;
+    font-style:italic;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition: all 0.3s ease-in-out;
+}
+#explore-more:hover {
+    box-shadow:inset 0px -120px 0px rgb(191, 231, 99);
+}
+
+/* 2. ---Main Nav--- */
+#main-nav button {
+    width:20px;
+    height:20px;
+    background: url(../image/burger.svg) no-repeat center;
+    margin-top:15px;
+    margin-bottom:20px;
+    transition:all .5s ease;
+    border:0;
+    margin-left: 275px;
+}
+
+#main-nav button.expanded {
+    transform:rotate(90deg);
+}
+
+#burger-con {
+    margin-top:20px;
+    margin-bottom: 20px;
+    display:none;
+}
+
+#burger-con.slide-toggle {
+    display:block;
+}
+
+#main-nav ul {
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+#main-nav ul li a {
+    display:block;
+    padding:10px 0 10px 0;
+    text-align:center;
+    color:#626262;
+}
+
+#main-nav ul li a:hover {
+    color:#9a2018;
+}
+
+#main-nav ul li {
+    border-bottom: 1px solid #efefef;
+}
+
+#main-nav ul li:first-child {
+    border-top:1px solid #efefef;
+}
+
+#main-nav ul li:last-child {
+    margin-bottom:10px;
+}
+
+#book-now-header {
+    display:none;
+}
+
+#logo {
+    max-width:288px;
+    margin-bottom:20px;
+}
+
+/* buhsdbfusdbcuhsd */
+
+.hero-img-h2 span {
+    color: #18299a;
+    font-size:12px;
+}
+
+/* 4 our team */
+.team {
+    height: 150px;
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+/* 8. ---Footer--- */
+#footer-hero {
+    background-image:url(../images/footer-mt.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    color:#000000;
+    font-size:12px;
+    margin-top:4px;
+    padding-bottom:80px;
+}
+
+@media screen and (min-resolution: 200dpi),
+        screen and (min-resolution: 1.25dppx) {
+    #footer-hero {
+        background-image:url(../images/footer-mt@2x.jpg);
+    }
+}
+
+#footer-hero h3 {
+    margin-top:30px;
+    font-size:23px;
+    margin-bottom:16px;
+}
+
+#footer-contact-info p {
+    margin-bottom:20px;
+    line-height:18px;
+    font-size:11px;
+}
+
+#footer-nav, #footer-book-now {
+    display:none;
+}
+.media img {
+    margin-top: 100px;
+  
+ height: 20px;
+ width: 20px;
+}
+
+/* 9. ---Custom Queries--- */
+
+/* 10. ---Tablet Sized Screens--- */
+@media screen and (min-width: 768px) {
+    #sticky-nav-con {
+        position:sticky;
+        top:0px;
+        z-index:1;
+        background-color:#fff;
+        border-bottom:solid 1px #c3c3c3;
+    }
+
+    #logo {
+        margin-top:32px;
+        order:-1;
+    }
+
+    #button {
+        display:none;
+    }
+
+    #burger-con {
+        display:block;
+        font-size:12px;
+    }
+
+    #burger-con ul li, #burger-con ul li:first-child {
+        border: none;
+        display:inline;
+    }
+
+    #main-nav ul li a {
+        display:inline;
+    }
+
+    #main-nav ul li {
+        margin-right:10px;
+    }
+
+    #main-nav ul li:last-child {
+        margin-right: 0px;
+    }
+
+    #main-nav {
+        border-left:2px solid #707070;
+        padding-left:30px;
+        margin-top:4%;
+        margin-bottom:4%;
+    }
+
+    #book-now-header {
+        display:flex;
+        margin-right:-16px;
+    }
+
+    #footer-nav {
+        display:block;
+    }
+
+ 
+
+  
+
+    @media screen and (min-resolution:200dpi),
+            screen and (min-resolution: 1.25dppx) {
+        #footer-hero {
+            background-image:url(../images/footer-td@2x.jpg);
+        }
+    }
+
+    #footer-nav {
+        margin-top: 40px;
+        column-count:2;
+    }
+
+    #footer-nav ul {
+        list-style:none;
+        margin-left: 30px;
+        padding:0;
+    }
+
+    #footer-nav ul li a {
+        color:#000000;
+    }
+
+    #footer-nav ul li {
+        margin-bottom:20px;
+    }
+
+    #book-now-hero {
+        display:none;
+    }
+
+    #hero-main {
+        height:455px;
+        object-position:30%;
+    }
+
+    #booking-calendar {
+        display:block;
+        height:200px;
+        background-color:#9a2018;
+        color:#fff;
+        margin-top:50px;
+        padding:30px 10px 20px 10px;
+    }
+
+    #booking-calendar h4 {
+        font-size:12px;
+        margin-bottom:10px;
+    }
+
+    #booking-calendar input[type="date"], #booking-calendar input[type="number"] {
+        padding:4px;
+        background-color:#fff;
+        border:2px solid #d6d6d6;
+        border-radius:5px;
+        margin-bottom:10px;
+        font:inherit;
+        width:100%;
+    }
+
+    #booking-calendar input[type="submit"] {
+        padding: 12px 0;
+        background-color: #CF6666;
+        color:#fff;
+        border: solid 2px #cf6666;
+        border-radius:10px;
+        width:100%;
+        margin-top:10px;
+        text-align:center;
+        transition:all 1s ease-in-out;
+    }
+
+    #body-calendar input[type="submit"]:hover {
+        border:solid 2px #fff;
+        cursor:pointer;
+    }
+
+    .hero-img-h2 {
+        padding:30px 15px;
+        font-size:18px;
+    }
+
+    #contact {
+        line-height:22px;
+        height:214px;
+        padding-top:60px;
+        font-size:11px;
+    }
+
+    #contact .grid-con > div {
+        width: auto;
+        margin:0;
+    }
+
+    #why-choose-us-nav {
+        margin-top:30px;
+        margin-bottom:30px;
+    }
+
+    #why-choose-us-nav ul li {
+        display:inline;
+        margin-right:30px;
+    }
+
+    #why-choose-us-nav ul li a.selected {
+        border-left:none;
+        border-bottom:5px solid #9a2018;
+        padding-bottom:25px;
+    }
+
+    #why-choose-us-hero-con img {
+        height:240px;
+    }
+
+    .why-choose-us-image-con div {
+        float:none;
+        margin-right:0;
+        margin-top:0px;
+        position:relative;
+    }
+
+    .why-choose-us-image-con div span {
+        display:block;
+        position:absolute;
+        bottom:30px;
+        right:0px;
+        color:#fff;
+        font-size:88px;
+    }
+
+    .why-choose-us-image-con h3 {
+        font-size:16px;
+        margin-bottom:20px;
+    }
+
+    .why-choose-us-image-con div img {
+        filter: grayscale(100%);
+        z-index:-1;
+        display:block;
+    }
+
+    .why-choose-us-image-con {
+        margin-bottom: 30px;
+    }
+
+    .show-hide {
+        display:block;
+    }
+
+    #hot-tub p, #hot-tub a, #hot-tub h3 {
+        display:none;
+    }
+
+    #spa {
+        background-color:#626262;
+        color:#fff;
+        padding:20px;
+    }
+
+    #spa p {
+        display:-webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        overflow:hidden;
+    }
+
+    #spa a {
+        color: #fff;
+        padding-bottom:5px;
+    }
+
+    #spa a:hover {
+        border-bottom: solid 3px #9a2018;
+    }
+
+    #why-choose-us-bottom-nav {
+        display:none;
+    }
+
+    #why-choose-us {
+        margin-bottom:80px;
+    }
+
+    #about-hero-con img {
+        height:240px;
+    }
+
+    #about-us-text {
+        column-count:2;
+    }
+
+    #about-us-text-column1 {
+        margin-bottom:80px;
+    }
+}
+
+/* 11. ---Desktop Sized Screens--- */
+@media screen and (min-width: 1200px) {
+    #main-header {
+        height:110px;
+    }
+
+    #main-nav {
+        margin-top:2%;
+        margin-bottom:2%;
+        margin-left:25px;
+    }
+
+    #burger-con ul li {
+        margin-right:25px;
+    }
+
+    #burger-con {
+        font-size:16px;
+        margin-top:28px;
+    }
+
+    .book-now {
+        font-size:18px;
+    }
+
+    #booking-calendar {
+        height:234px;
+    }
+
+    #check-availability {
+        margin-top:10px;
+    }
+
+    .hero-img-h2 {
+        font-size:24px;
+    }
+
+    .hero-img-h2 span {
+        font-size:16px;
+    }
+
+    #hero-main {
+        object-position:15%;
+    }
+
+    .fas {
+        font-size:90px;
+    }
+
+    .fa-mobile-alt, .fa-map-marker-alt {
+        margin-right:40px;
+    }
+
+    #why-choose-us-hero-con img {
+        height:380px;
+    }
+
+    #spa p {
+        display:block;
+        -webkit-line-clamp: unset;
+        -webkit-box-orient: unset;
+        text-overflow:unset;
+        overflow:auto;
+    }
+
+    #why-choose-us-nav {
+        margin-top:50px;
+        font-size:24px;
+    }
+
+    #about-hero-con img {
+        height:380px;
+    }
+}
