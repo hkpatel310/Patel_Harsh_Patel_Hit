@@ -118,6 +118,7 @@ a {
 
 /* buhsdbfusdbcuhsd */
 
+
 .hero-img-h2 span {
     color: #18299a;
     font-size:12px;
@@ -130,8 +131,29 @@ a {
 }
 
 
+.product img {
+    width: 55vh;
 
+    flex: 0 0 50%;
+   
+    transition: transform 0.2s, box-shadow 0.5s;
+}
 
+.product img:hover {
+    transform: scale(1.5); /* Increase size on hover */
+ 
+}
+
+.can {
+    width: 55vh;
+
+    flex: 0 0 50%;
+   
+    transition: transform 0.2s, box-shadow 0.5s;
+}
+.can:hover {
+    transform: scale(1.5);
+}
 
 .flavours object {
     height: 100px;
@@ -524,12 +546,6 @@ width: 700px;
     top: 0;
     left: 0;
 
-    background-color: rgba(0, 0, 0, 0.85);
-    background-image: url('../image/can-orange.png');
-    background-repeat: no-repeat;
-
-    background-size: 55vh; 
-    background-position: 40px center;
 
     z-index: 5000;
 
@@ -538,14 +554,14 @@ width: 700px;
 
 
 
-#lightbox2 { background-image: url('../image/can-lime.png');}
-#lightbox3{background-image: url('../image/can-berry.png');}
-#lightbox4{ background-image: url('../image/can-cherry.png'); }
-
 
 
 .lb_text, .lb_heading { text-align: left; }
 
+.lb_heading {
+    font-size: 30px;
+    color: orange;
+}
 .lb_text {
     line-height: 1.6 !important;
     margin-left: 0;
