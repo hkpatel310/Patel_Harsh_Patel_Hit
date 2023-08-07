@@ -515,11 +515,11 @@ a {
     left: 0;
 
     background-color: rgba(0, 0, 0, 0.85);
-    background-image: url('../images/john_wick_cover_pic.jpeg');
+    background-image: url('../image/can-orange.png');
     background-repeat: no-repeat;
 
     background-size: 55vh; 
-    background-position: 40px bottom;
+    background-position:  left;
 
     z-index: 5000;
 
@@ -528,31 +528,12 @@ a {
 
 
 
-#lightbox2 { background-image: url('../images/winston_cover_pic.jpeg');}
-#lightbox3{background-image: url('../images/charon_profile.jpg');}
-#lightbox4{ background-image: url('../images/mrs_perkins_profile_photo.jpeg'); }
+#lightbox2 { background-image: url('../image/can-lime.png');}
+#lightbox3{background-image: url('../image/can-berry.png');}
+#lightbox4{ background-image: url('../image/can-cherry.png'); }
 
 
-.lightbox_close {
-    position: relative;
-    top: 20px;
-    left: 95%;
 
-    color: white;
-    font-size: 3em;
-
-    text-decoration: none;
-
-    font-weight: bolder;
-}
-
-.lightbox_close:hover { opacity: 0.5; color: rgb(215, 16, 166); }
-
-.lightbox article {
-    width: 55%;
-    margin-left: 40%;
-    padding-top: 50px;
-}
 
 .lb_text, .lb_heading { text-align: left; }
 
@@ -580,10 +561,10 @@ a {
   
   .lightbox_close {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 50px;
+    right: 50px;
     color: #fff;
-    font-size: 20px;
+    font-size: 50px;
     text-decoration: none;
   }
   
