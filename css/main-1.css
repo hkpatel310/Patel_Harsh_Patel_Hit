@@ -85,7 +85,10 @@ a {
     display:block;
     padding:10px 0 10px 0;
     text-align:center;
-    color:#626262;
+    color:#6184a7;
+    font-size: 20px;
+    font-weight: 900;
+   
 }
 
 #main-nav ul li a:hover {
@@ -130,7 +133,10 @@ a {
 
 
 
-
+.flavours object {
+    height: 100px;
+    width: 100px;
+}
 
 
 /* 8. ---Footer--- */
@@ -172,9 +178,6 @@ a {
   
  height: 20px;
  width: 20px;
-}
-.cocktail {
-    display: block;
 }
 
 /* 9. ---Custom Queries--- */
@@ -236,9 +239,6 @@ a {
     }
 
 
-    .cocktail {
-        display: block;
-    }
   
 
     @media screen and (min-resolution:200dpi),
@@ -511,6 +511,11 @@ a {
         height:380px;
     }
 }
+
+#character_nav a img {
+height: fit-content;
+width: 700px;    
+}
 .lightbox { 
     width: 100vw;
     height: 100vh; 
@@ -524,7 +529,7 @@ a {
     background-repeat: no-repeat;
 
     background-size: 55vh; 
-    background-position:  left;
+    background-position: 40px center;
 
     z-index: 5000;
 
@@ -536,7 +541,6 @@ a {
 #lightbox2 { background-image: url('../image/can-lime.png');}
 #lightbox3{background-image: url('../image/can-berry.png');}
 #lightbox4{ background-image: url('../image/can-cherry.png'); }
-
 
 
 
