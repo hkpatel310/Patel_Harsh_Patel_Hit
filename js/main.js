@@ -13,6 +13,5 @@ console.log("js file connected");
 	};
 
 
-	button.addEventListener("click", hamburgerMenu, false);		
+	button.addEventListener("click", hamburgerMenu, false);		
 })();
-
