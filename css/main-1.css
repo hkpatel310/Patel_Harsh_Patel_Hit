@@ -173,6 +173,9 @@ a {
  height: 20px;
  width: 20px;
 }
+.cocktail {
+    display: block;
+}
 
 /* 9. ---Custom Queries--- */
 
@@ -232,8 +235,10 @@ a {
         display:block;
     }
 
- 
 
+    .cocktail {
+        display: block;
+    }
   
 
     @media screen and (min-resolution:200dpi),
