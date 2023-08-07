@@ -15,7 +15,7 @@
 
 /* 1. ---General Styles--- */
 body {
-    color: #626262;
+    color: #000000;
     font-family: 'Sanchez', 'Times New Roman', serif;
 }
 
@@ -35,7 +35,7 @@ a {
 }
 
 
-#explore-more {
+.explore-more {
     background-color:#378ecd;
     color:#fff;
     font-size:16px;
@@ -45,7 +45,7 @@ a {
     align-items:center;
     transition: all 0.3s ease-in-out;
 }
-#explore-more:hover {
+.explore-more:hover {
     box-shadow:inset 0px -120px 0px rgb(191, 231, 99);
 }
 
@@ -114,7 +114,6 @@ a {
     margin-bottom:20px;
 }
 
-/* buhsdbfusdbcuhsd */
 
 
 .hero-img-h2 span {
@@ -163,12 +162,6 @@ a {
 }
 
 
-@media screen and (min-resolution: 200dpi),
-        screen and (min-resolution: 1.25dppx) {
-    #footer-hero {
-        background-image:url(../images/footer-mt@2x.jpg);
-    }
-}
 
 #footer-hero h3 {
     margin-top:30px;
@@ -253,12 +246,6 @@ a {
 
   
 
-    @media screen and (min-resolution:200dpi),
-            screen and (min-resolution: 1.25dppx) {
-        #footer-hero {
-            background-image:url(../images/footer-td@2x.jpg);
-        }
-    }
 
     #footer-nav {
         margin-top: 66px;
